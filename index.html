@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+    <head>
+        <title>Drag & Drop</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ 
+        <!-- Cascading Style Sheets -->
+        <link href="css/page.css" rel="stylesheet" type="text/css" />
+ 
+        
+    </head>
+ 
+    <body>
+
+<div class="containe">
+    <h1>le compte est bon</h1>
+</div> <!-- fin div containe -->
+
+<hr>
+
+<div class="containe">
+    <div class="grilleJeu">
+                
+                <!-- grille de jeu -->
+        <div id="galeGrid" class="grid">
+
+            <div id="firstOperation" class="lineOperation">
+                <div id="firstN1" class="number"></div>
+                <div id="operateur1" class="operator">+</div>
+                <div id="second1" class="number enigme"></div>
+                <div id="firstEqual" class="equal">=</div>
+                <div id="result1" class="result"></div>
+            </div> <!-- fin div lineOperation -->
+
+            <div id="secondOperation" class="lineOperation">
+                <div id="firstN2" class="result"></div>
+                <div id="operateur2" class="operator">-</div>
+                <div id="second2" class="number enigme"></div>
+                <div id="twoEqual" class="equal">=</div>
+                <div id="result2" class="result"></div>
+            </div> <!-- fin div lineOperation -->
+
+            <div id="thirdOperation" class="lineOperation">
+                <div id="firstN3" class="result"></div>
+                <div id="operateur3" class="operator">+</div>
+                <div id="second3" class="number enigme"></div>
+                <div id="threeEqual" class="equal">=</div>
+                <div id="result3" class="result"></div>
+            </div> <!-- fin div lineOperation -->
+
+            <div id="finalOperation" class="lineOperation">
+                <div id="firstN4" class="result"></div>
+                <div id="operateur4" class="operator">+</div>
+                <div id="second4" class="number enigme"></div>
+                <div id="finalEqual" class="equal">=</div>
+                <div id="result4" class="lastResult"></div>
+            </div> <!-- fin div lineOperation -->
+
+        </div> <!-- fin div grid -->
+
+               <!-- pioche -->
+        <div id="pickaxe" class="pickaxe">
+
+            <div id="numberPickaxe" class="numberPickaxe">
+                
+                <div id="Pickaxe2" class="number mobile">9</div>
+                <div id="Pickaxe3" class="number mobile">6</div>
+                <div id="Pickaxe4" class="number mobile">5</div>
+                <div id="Pickaxe5" class="number mobile">10</div>
+                
+            </div> <!-- fin div numberPickaxe -->
+
+        </div> <!-- fin div pickaxe -->
+    </div> <!-- fin de grille de jeu -->
+
+</div> <!-- fin div containe -->
+
+<hr>
+
+<div class="containe">
+
+    <!-- operateurs -->
+    <div id="operateurs" class="operateurs">
+
+        <div id="firstOperation" class="lesOperateurs">
+            <div id="firstNumber" class="operateur">+</div>
+            <div id="firstOperateur" class="operateur">-</div>
+            <div id="secondnumber" class="operateur">*</div>
+            <div id="firstEqual" class="operateur">/</div>
+        </div> <!-- fin div lesOperateurs -->
+
+    </div> <!-- fin div operateurs -->
+
+</div> <!-- fin div containe -->
+
+        <!-- Javascript -->
+        
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+        <script src="js/jeu.js"></script>
+        <!-- <script type="text/javascript" src="js/main.js"></script> -->
+
+    </body>
+ 
+</html>
